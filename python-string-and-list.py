@@ -54,3 +54,27 @@ format(parameter) # string formatting
 # print(‘Hello, {0}! I am {1}’.format(‘John’, ‘Jen’))
 # print('%d %s %.4f.' % (2, 'formatting', 3.1415)) -> 2 formatting 3.1415.
 
+
+# list is an array in swift
+list = [1, ‘hi’, 4.5]
+
+append(value)   # add new value at the end of the list
+pop()           # delete last element in list and return it’s value
+remove()        # delete last element of the list
+reverse()
+sort()          # sort from small to big
+
+list[index]
+list[start_index:end_index] # sublist of elements from start_index till (end_index-1)
+list[-1]    # last element
+list[:]     # all elements
+list[::3]   # every 3rd element
+
+for element in list:
+    print(element)
+
+for index, element in enumerate(list):
+    print(index, element)
+
+
+
