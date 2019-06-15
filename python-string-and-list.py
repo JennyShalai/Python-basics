@@ -1,4 +1,4 @@
-INTRO TO PYTHON (numeric data and basic math operations )
+# INTRO TO PYTHON (numeric data and basic math operations )
 
 int, float, complex
 snake_case_naming_convention
@@ -57,6 +57,7 @@ format(parameter) # string formatting
 
 # list is an array in swift
 list = [1, ‘hi’, 4.5]
+list('hello')   # ['h', 'e', 'l', 'l', 'o']
 
 append(value)   # add new value at the end of the list
 pop()           # delete last element in list and return it’s value
