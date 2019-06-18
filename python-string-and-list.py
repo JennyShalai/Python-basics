@@ -21,6 +21,7 @@ isupper() 	# bool
 endswith()
 len(string) # length
 string[i] 	# chat at I position
+count(value) # count words in string
 
 string[i,j] # chars from i to j-1 positions
 string[N:]	# remover first N chars
@@ -77,5 +78,8 @@ for element in list:
 for index, element in enumerate(list):
     print(index, element)
 
-
+# list comprehension
+in_list = ['SPAM', 'Spam', 'spam']
+answer = [value.lower() for value in in_list]
+         # what to do    # with what #from where
 
