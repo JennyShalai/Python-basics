@@ -41,3 +41,26 @@ if key in dictionary:
 
 
 
+a_set = set([1, 2, 3])
+other_set = {1, 2, 3}
+
+set.add(value)
+set.intersection(other_set)  # return only elements that are in both sets
+set.remove(value)
+set.clear
+set.intersection_update
+set.symmetric_difference
+set.copy
+set.isdisjoint
+set.symmetric_difference_update
+set.difference
+set.issubset
+set.union(other_set)
+set.difference_update
+set.issuperset
+set.update
+set.discard
+set.pop
+
+
+
