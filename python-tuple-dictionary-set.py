@@ -63,4 +63,23 @@ set.discard
 set.pop
 
 
+===
+# COMPREHENSION
 
+dictionary = {key:value for key in array}
+
+# create a dictionary that has keys that are the original word and values
+# that are the uppercase version of the word.
+# {'organic': 'ORGANIC', 'kale': 'KALE', 'chip': 'CHIP', 'snack': 'SNACK'}
+words = input('Enter words:')
+words_dictionary = {word: word.upper() for word in words.split()}
+print(words_dictionary)
+
+
+# Create tuples that have a word of mixed case as the first element
+# and an entirely lowercase string as the second element.
+# (('RADIO', 'radio'), ('aStRoNoMy', 'astronomy'), ('Pulsar', 'pulsar'))
+words = input('Enter words:')
+result = tuple(i for i in ({key:key.lower() for key in words.split()}.items()))
+print(result)
+# OR result = tuple((word, word.lower()) for word in words.split())
