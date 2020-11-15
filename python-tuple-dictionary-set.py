@@ -42,9 +42,9 @@ if key in dictionary:
 for word in words:
     # some restrictions if needed
     if word in words:
-                words[word] += 1
-            else:
-                words[word] = 1
+        words[word] += 1
+    else:
+        words[word] = 1
 
 a_set = set([1, 2, 3])
 other_set = {1, 2, 3}
