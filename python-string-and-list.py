@@ -12,6 +12,9 @@ str(value) # casting to string
 + 	# concatenate strings
 *n 	#repeat string n times
 strip()	#removes the trailing space 
+strip() #returns a new string after removing any leading and trailing whitespaces including tabs (\t).
+rstrip() #returns a new string with trailing whitespace removed. It’s easier to remember as removing white spaces from “right” side of the string.
+lstrip() #returns a new string with leading whitespace removed, or removing whitespaces from the “left” side of the string.
 capitalize()
 upper()
 lower()
