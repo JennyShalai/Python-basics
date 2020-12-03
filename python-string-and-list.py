@@ -34,6 +34,7 @@ string[-N:]	# leaves last N chars
 '012345'[-2:] # 45
 '012345'[::2] # 024 - every second char
 '012345'[1:5:2] #135 in range from 1 to (5-1) position take every second char
+string.index("x") #method index() returning the position of the first "x" in the string
 
 # !!! So ‘:’ is a separator to set a range for string slicing, 
 # if no number is given it mean “from the beginning of the sting 
