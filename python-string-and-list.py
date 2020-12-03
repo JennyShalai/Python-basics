@@ -66,9 +66,13 @@ format(parameter) # string formatting
 # list is an array in swift
 list = [1, ‘hi’, 4.5]
 list('hello')   # ['h', 'e', 'l', 'l', 'o']
+len(list) # number of elements in list
+
 
 append(value)   # add new value at the end of the list
+append(index, value) #add new value to the index position
 pop()           # delete last element in list and return it’s value
+pop(index)	# pop() by index
 remove()        # delete last element of the list
 reverse()
 sort()          # sort from small to big
