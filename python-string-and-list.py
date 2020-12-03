@@ -25,7 +25,8 @@ endswith()
 len(string) # length
 string[i] 	# chat at I position
 count(value) # count words in string
-isnumeric() #returns true if all characters in the string are numeric
+isnumeric() # returns true if all characters in the string are numeric
+isalpha() # returns true if all characters in the string are alphabetic
 "-".join("a", "b", "c") # return "a-b-c", join()
 
 string[i,j] # chars from i to j-1 positions
