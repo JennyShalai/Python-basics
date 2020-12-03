@@ -26,6 +26,7 @@ len(string) # length
 string[i] 	# chat at I position
 count(value) # count words in string
 isnumeric() #returns true if all characters in the string are numeric
+"-".join("a", "b", "c") # return "a-b-c", join()
 
 string[i,j] # chars from i to j-1 positions
 string[N:]	# remover first N chars
